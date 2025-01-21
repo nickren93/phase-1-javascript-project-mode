@@ -1,0 +1,149 @@
+
+#logo {
+    height: 80px;
+}
+
+#mainTitle {
+    color: #1d2b4b;
+}
+
+nav {
+    background-color: #9c998d; /* Background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Spacing inside the nav */
+    font-family: Arial, sans-serif; /* Font style */
+    align-items: center; /* Center items vertically */
+    text-align: right; 
+}
+
+.nav-a {
+    margin-right: 10px; /* Adds spacing to the right of each link */
+}
+
+#current-champions-list {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start; /* Align the items to the left */
+    align-items: center;
+    overflow-x: auto; /* Ensure scrolling if necessary */
+    margin: 1rem 0;
+    max-width: calc(100vw - 2rem); /* Account for margins */
+}
+
+#current-champions-list img {
+    flex: 0 1 auto; /* Allow images to scale if necessary */
+    height: 330px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+#current-champions-list img:first-child {
+    margin-left: 0; /* Remove margin for the first image */
+}
+
+#current-champions-list img:last-child {
+    margin-right: 0; /* Remove margin for the last image */
+}
+
+
+#fighterPhoto,
+#update-fighter,
+#promo-video {
+    height: 100%; /* Ensure the body takes full height */
+    margin: 0;    /* Remove default margin */
+    display: flex; 
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+}
+
+
+#fighter-details {
+    justify-content: center; /* Centers horizontally */
+    align-items: center;
+    display: flex;
+    flex-direction: column; /* Stacks elements vertically */ 
+    gap: 0px;
+    h4 {
+        margin: 0;
+        margin-bottom: 2px; /* Small margin between the headings */
+        text-align: center;
+      }
+    #weightClass {
+        font-size: larger;
+        color:#3162ca
+    }
+  }
+
+form {
+    flex-direction: column;
+}
+
+#promo-video{
+    display: flex;
+    flex-direction: column;  /* Stack children vertically */
+    justify-content: center; /* Center children vertically within the parent */
+    align-items: center;     /* Center children horizontally */
+    text-align: center;      /* Center text inside child elements */
+}
+
+
+
+#footer{
+
+    div{
+        float: left;
+        width: 25%;
+        background-color: rgb(151, 137, 137);
+        flex-direction: column;  /* Stack children vertically */
+        justify-content: center; /* Center children vertically within the parent */
+        align-items: center;     /* Center children horizontally */
+        text-align: center;      /* Center text inside child elements */
+    }
+}
+
+#About, 
+#Contact, 
+#Legal {
+    font-size:x-large;
+    font-weight:600;
+    color:#3162ca;  
+}
+
+
+/*------------------*/
+.sidebar {
+    width: 800px;
+    background-color: #f4f4f4;
+    padding: 1px;
+    border-right: 1px solid #ddd;
+    height: 40vh;
+}
+
+.sidebar h2 {
+    margin: 0 0 1px;
+    font-size: 15px;
+    color: #7e0c0c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+table th,
+table td {
+    text-align: left;
+    padding: 1px;
+    border: 0.5px solid #ddd;
+}
+
+table th {
+    background-color: #007BFF;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

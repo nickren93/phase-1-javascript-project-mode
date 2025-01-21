@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>UFC Champions Look Up</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  
+  <body>
+
+    <img id = "logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UFC_Logo.svg/1280px-UFC_Logo.svg.png" alt="UFC_Logo">
+    <header id="mainTitle">
+      <h1>UFC Current Champions Information Finder</h1>
+    </header>
+
+    <nav>
+      <a id ="About" class="nav-a" href="about.html">About</a> 
+      <a id ="Contact" class="nav-a" href="contact.html">Contact</a> 
+      <a id ="Legal" class="nav-a" href="products.html">Legal</a>
+    </nav>
+
+    <main>
+      <div id="current-champions-list">
+        <div class="sidebar">
+          <h2>P4P Ranking Top10</h2>
+          <table>
+            <tr>
+              <th>Ranking</th>
+              <th>Fighter</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Islam Makhachev</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Jon Jones</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Alex Pereira</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Ilia Topuria</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Belal Muhammad</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Dricus Du Plessis</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Merab Dvalishvili</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>Tom Aspinall</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>Alexandre Pantoja</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Leon Edwards</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <section id="fighterPhoto">
+        <img src="https://placehold.co/600x400?text=Please+choose+a+fighter" alt="fighter details">
+      </section>
+      <div id = "fighter-details">
+        <h4 id="weightClass" class="fighter-details">Weight class: <span></span></h4> <br>
+        <h4 id="name" class="fighter-details">Name: <span></span></h4> <br>
+        <h4 id="age" class="fighter-details">Age: <span></span></h4> <br>
+        <h4 id="weight" class="fighter-details">Weight: <span></span></h4> <br>
+        <h4 id="height" class="fighter-details">Height: <span></span></h4> <br>
+        <h4 id="record" class="fighter-details">Record: <span></span> (W-L-D)</h4> <br>
+      </div>
+      <br>
+
+      
+      <form id="update-fighter">
+        <h3>Update Selected Champion</h3>
+        <label for="new-name">Name: </label>
+        <input type="text" name="name" id="new-name" />
+        <label for="new-age">Age: </label>
+        <input type="text" name="age" id="new-age" />
+        <label for="new-height">Height: </label>
+        <input type="text" name="height" id="new-height" />
+        <label for="new-image">Image: </label>
+        <input type="text" name="image" id="new-image" />
+        <label for="new-record">Record: </label>
+        <input type="text" name="record" id="new-record" />
+        <input type="submit" id='submit-button' value="Update" />
+      </form>
+      <br><br>
+
+      <section id="promo-video">
+        <h3>Most Recent UFC Title Fight - UFC 311 (Jan 18th 2025)</h3>
+        <iframe 
+          width="640" height="360" 
+          src="https://www.youtube.com/embed/8T5beGQNx38" 
+          title="UFC 311: Makhachev vs Tsarukyan 2 | “I’m Ready” | Fight Trailer" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen>
+        </iframe>
+      </section>
+
+     
+    </main>
+    
+ 
+    <footer id="footer">
+        <div>
+            <h3>Links</h3>
+            <p>
+                <a href="#" target="_blank">Home Restoration</a><br>
+                <a href="#" target="_blank">Afordable Mortgages</a><br>
+                <a href="#" target="_blank">Professional Moving Crew</a>
+            </p>
+        </div>
+
+        <div>
+            <h3>Follow Us</h3>
+            <p>
+                <a href="#" target="_blank">Youtube</a><br>
+                <a href="#" target="_blank">Facebook</a><br>
+                <a href="#" target="_blank">Twitter</a>
+            </p>
+        </div>
+        <div>
+            <h3>Contact</h3>
+            <p>
+                email: <a href="mailto:info@xxxxxxxx.com">info@xxxxxxxx.com</a><br>
+                phone: +1 xxx xxx xxxx<br>
+                fax: xxx-xxx-xxxx
+            </p>
+        </div>
+        <div>
+            <h3>Correspondence</h3>
+            <address>
+                xxxxxxxxx<br>
+                P.O.Box 5555<br>
+                Brooklyn, NY 11201
+            </address>
+            <details>
+                <summary>&copy; 2024 Fighter Finder.</summary>
+                <p>All Rights Reserved.</p>
+            </details>
+        </div>
+      
+    </footer>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+{
+  "UFC_Champions": [
+    {
+      "id": "1",
+      "name": "Alexandre Pantoja",
+      "age": "34",
+      "weightClass": "Flyweight",
+      "weight": "125 lbs",
+      "height": "5 ft 5 in (1.65 m)",
+      "image": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-12/PANTOJA_ALEXANDRE_L_BELT_12-07.png?itok=sW0jquaZ",
+      "record": "29-5-0"
+    },
+    {
+      "id": "2",
+      "name": "Merab Dvalishvili",
+      "age": "34",
+      "weightClass": "Bantamweight",
+      "weight": "135 lbs",
+      "height": "5 ft 6 in (1.68 m)",
+      "image": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-10/2/DVALISHVILI_MERAB_L_BELTMOCK.png?itok=e4x0bnbZ",
+      "record": "18-4-0"
+    },
+    {
+      "id": "3",
+      "name": "Ilia Topuria",
+      "age": "27",
+      "weightClass": "Featherweight",
+      "weight": "145 lbs",
+      "height": "5 ft 7 in (1.70 m)",
+      "image": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-10/2/TOPURIA_ILIA_L_BELT_10-26.png?itok=MvI4bGIl",
+      "record": "16-0-0"
+    },
+    {
+      "id": "4",
+      "name": "Islam Makhachev",
+      "age": "33",
+      "weightClass": "Lightweight",
+      "weight": "155 lbs",
+      "height": "5 ft 10 in (1.78 m)",
+      "image": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-10/2/MAKHACHEV_ISLAM_L_BELT_06-01.png?itok=Fys0K4gs",
+      "record": "26-1-0"
+    },
+    {
+      "id": "5",
+      "name": "Belal Muhammad",
+      "age": "36",
+      "weightClass": "Welterweight",
+      "weight": "170 lbs",
+      "height": "5 ft 10 in (1.78 m)",
+      "image": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-10/2/MUHAMMAD_BELAL_L_BELTMOCK.png?itok=IkrG1_UR",
+      "record": "24-3-0"
+    },
+    {
+      "id": "6",
+      "name": "Dricus Du Plessis",
+      "age": "30",
+      "weightClass": "Middleweight",
+      "weight": "185 lbs",
+      "height": "6 ft 0 in (1.83 m)",
+      "image": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-10/2/DU_PLESSIS_DRICUS_L_BELT.png?itok=ThYbFDzu",
+      "record": "22-2-0"
+    },
+    {
+      "id": "7",
+      "name": "Alex Pereira",
+      "age": "37",
+      "weightClass": "Light Heavyweight",
+      "weight": "205 lbs",
+      "height": "6 ft 4 in (1.93 m)",
+      "image": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-10/3/PEREIRA_ALEX_L_BELT_10-05.png?itok=5O93_Ug3",
+      "record": "12-2-0"
+    },
+    {
+      "id": "8",
+      "name": "Jon Jones",
+      "age": "37",
+      "weightClass": "Heavyweight",
+      "weight": "238 lbs",
+      "height": "6 ft 4 in (1.93 m)",
+      "image": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-11/JONES_JON_L_BELT_11-16.png?itok=jsP28R4T",
+      "record": "28-1-0"
+    },
+    {
+      "id": "9",
+      "name": "Zhang Weili",
+      "age": "35",
+      "weightClass": "Women's Strawweight",
+      "weight": "115 lbs",
+      "height": "5 ft 4 in (1.63 m)",
+      "image": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-10/2/WEILI_ZHANG_L_BELT_04-13.png?itok=jkwmRfwy",
+      "record": "25-3-0"
+    },
+    {
+      "id": "10",
+      "name": "Valentina Shevchenko",
+      "age": "36",
+      "weightClass": "Women's Flyweight",
+      "weight": "125 lbs",
+      "height": "5 ft 5 in (1.65 m)",
+      "image": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-10/2/SHEVCHENKO_VALENTINA_L_BELT_03-05.png?itok=Q1hdmXPZ",
+      "record": "24-4-1"
+    },
+    {
+      "id": "11",
+      "name": "Julianna Peña",
+      "age": "35",
+      "weightClass": "Women's Bantamweight",
+      "weight": "135 lbs",
+      "height": "5 ft 7 in (1.70 m)",
+      "image": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-10/3/PENA_JULIANNA_L_BELT_07-30.png?itok=scwJAL44",
+      "record": "13-5-0"
+    }
+  ]
+}
